@@ -9,17 +9,18 @@ namespace RegistrosDeCarros
 
         public Carro()
         {
-
+            Console.WriteLine("Pegando meu novo carro!");
         }
 
         public Carro(string marca)
         {
-
+            setMarca(marca);
         }
 
         public Carro(string ano, string marca)
         {
-
+            setAno(ano);
+            setMarca(marca);
         }
 
         public int getId()
@@ -60,8 +61,19 @@ namespace RegistrosDeCarros
             Console.WriteLine("Dirigindo meu carro com velocidade!");
         }
 
+        public void meuCarro()
+        {
+            Console.WriteLine("O meu carro é " + getMarca());
+        }
 
-
+        public void meuCarro(bool temArCondicionado)
+        {
+            if(getTemArCondicionado() == true)
+            {
+                 Console.WriteLine("O meu carro é " + getMarca() + " E tem ar condicionado!");
+            }
+           
+        }
 
     }
 }

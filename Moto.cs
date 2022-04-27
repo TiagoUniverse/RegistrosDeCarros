@@ -7,16 +7,17 @@ namespace RegistrosDeCarros
         private int id;
        
         private bool estouComCapacete;
-        private bool ligado;
 
+        private string modeloMoto;
+    
         public Moto()
         {
-
+            Console.WriteLine("Pegando minha nova moto!");
         }
 
-        public Moto(string estouComCapacete)
+        public Moto(bool estouComCapacete)
         {
-
+             setEstouComCapacete(estouComCapacete);
         }
 
 
@@ -25,11 +26,6 @@ namespace RegistrosDeCarros
             return this.id;
         }
 
-
-        public bool getLigado()
-        {
-            return this.ligado;
-        }
         public bool getEstouComCapacete()
         {
             return this.estouComCapacete;
@@ -40,13 +36,26 @@ namespace RegistrosDeCarros
             this.id = id;
         }
 
+        public string getModeloMoto()
+        {
+            return this.modeloMoto;
+        }
+
+        public void setModeloMoto(string modeloMoto)
+        {
+            this.modeloMoto = modeloMoto;
+        }
 
         public void setEstouComCapacete(bool estouComCapacete)
         {
             this.estouComCapacete = estouComCapacete;
         }
 
-    
+        public void EmpinarMoto()
+        {
+            Console.WriteLine("OPA! Estou empinando a moto!");
+        }
+        
 
 
 
