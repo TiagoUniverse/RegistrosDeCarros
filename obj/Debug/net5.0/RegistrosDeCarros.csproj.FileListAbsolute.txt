@@ -1,0 +1,16 @@
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.exe
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.deps.json
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.runtimeconfig.json
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.runtimeconfig.dev.json
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.dll
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\ref\RegistrosDeCarros.dll
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\bin\Debug\net5.0\RegistrosDeCarros.pdb
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.csproj.AssemblyReference.cache
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.AssemblyInfoInputs.cache
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.AssemblyInfo.cs
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.csproj.CoreCompileInputs.cache
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.dll
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\ref\RegistrosDeCarros.dll
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.pdb
+C:\Users\Facsenac\Downloads\RegistrosDeCarros\obj\Debug\net5.0\RegistrosDeCarros.genruntimeconfig.cache
