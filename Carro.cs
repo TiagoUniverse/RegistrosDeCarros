@@ -44,7 +44,7 @@ namespace RegistrosDeCarros
         }
 
     
-        public void Ligar(bool temArCondicionado)
+        public void ligar(bool temArCondicionado)
         {
             if (getTemArCondicionado() == true )
             {
