@@ -7,7 +7,7 @@ namespace RegistrosDeCarros
         private int id;
         private int quantRodas;
         private int quantLuzes;
-        private bool ligado;
+        
         private double quantGasolina;
 
         public Automovel()
@@ -44,15 +44,6 @@ namespace RegistrosDeCarros
             this.quantLuzes = quantLuzes;
         }
 
-        public bool getLigado()
-        {
-            return this.ligado;
-        }
-
-        public void setLigado(bool ligado)
-        {
-            this.ligado = ligado;
-        }
 
         public double getQuantGasolina()
         {
@@ -63,20 +54,7 @@ namespace RegistrosDeCarros
         {
             this.quantGasolina = quantGasolina;
         }
-        public void estaLigado()
-        {
-            if (getLigado() == true)
-            {
-                Console.WriteLine("\n O automóvel está ligado!");
-            }
-            else
-            {
-                Console.WriteLine("\n O automóvel não está ligado!");
-
-            }
-
-        }
-
+        
         public void GasolinaAtual()
         {
             if(getQuantGasolina() <= 0)
@@ -88,6 +66,8 @@ namespace RegistrosDeCarros
                 
             }
         }
+
+        
 
     }
 }
