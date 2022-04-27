@@ -7,8 +7,11 @@ namespace RegistrosDeCarros
         private int id;
         private int quantRodas;
         private int quantLuzes;
-        
+        private string ano;
+        private string marca;
         private double quantGasolina;
+
+        private bool ligado;
 
         public Automovel()
         {
@@ -54,20 +57,93 @@ namespace RegistrosDeCarros
         {
             this.quantGasolina = quantGasolina;
         }
-        
+
+
+        public string getAno()
+        {
+            return this.ano;
+        }
+
+        public string getMarca()
+        {
+            return this.marca;
+        }
+
+        public void setAno(string ano)
+        {
+            this.ano = ano;
+        }
+
+        public void setMarca(string marca)
+        {
+            this.marca = marca;
+        }
+
+         public bool getLigado()
+        {
+            return this.ligado;
+        }
+
+        public void setLigado(bool ligado)
+        {
+            this.ligado = ligado;
+        }
+
+
+        public void estaLigado()
+        {
+            if (getLigado() == true)
+            {
+                Console.WriteLine("\n O automóvel está ligado!");
+            }
+            else
+            {
+                Console.WriteLine("\n O automóvel não está ligado!");
+
+            }
+
+        }
+
+        public void ligar()
+        {
+            if (getLigado() == true)
+            {
+                Console.WriteLine("\n O automovel já está ligado!");
+            }
+            else
+            {
+                Console.WriteLine("\n Ligando o automovel!" );
+                setLigado(true);
+            }
+
+        }
+
+        public void desligar()
+        {
+              if (getLigado() == false)
+            {
+                Console.WriteLine("\n O automovel já está desligado!");
+            }
+            else
+            {
+                Console.WriteLine("\n Desligando o automovel!");
+                setLigado(true);
+            }
+        }
         public void GasolinaAtual()
         {
-            if(getQuantGasolina() <= 0)
+            if (getQuantGasolina() <= 0)
             {
                 Console.WriteLine("\n Espere aí, motorista! Você está sem gasolina!");
-            }else
+            }
+            else
             {
                 Console.WriteLine("\n O tanque do seu automóvel possui " + getQuantGasolina() + " de gasolina");
-                
+
             }
         }
 
-        
+    
 
     }
 }
