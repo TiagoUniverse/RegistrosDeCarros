@@ -53,10 +53,27 @@ namespace RegistrosDeCarros
 
         public void EmpinarMoto()
         {
-            Console.WriteLine("OPA! Estou empinando a moto!");
+            Console.WriteLine("\n OPA! Estou empinando a moto!");
+
+            if(getEstouComCapacete() == true)
+            {
+                Console.WriteLine("\n E estou com meu capacete de segurança! Agora sim.");
+            }else
+            {
+                Console.WriteLine("\n Mas devo tomar cuidado! Estou sem meu capacete de segurança");
+            }
         }
         
-
+          public void SegurancaCapacete()
+        {
+            if(getEstouComCapacete() == true)
+            {
+                Console.WriteLine("\n Estou seguro e com meu capacete. Posso pilotar melhor agora.");
+            }else
+            {
+                Console.WriteLine("\n Preciso do meu capacete. É perigoso pilotar sem ele");
+            }
+        }
 
 
 

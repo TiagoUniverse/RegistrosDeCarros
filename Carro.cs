@@ -7,6 +7,8 @@ namespace RegistrosDeCarros
         private int id;
         private bool temArCondicionado;
 
+        private bool possuiRadio;
+
         public Carro()
         {
             Console.WriteLine("Pegando meu novo carro!");
@@ -43,7 +45,16 @@ namespace RegistrosDeCarros
             this.temArCondicionado = temArCondicionado;
         }
 
-    
+        public bool getPossuiRadio()
+        {
+            return this.possuiRadio;
+        }
+
+        public void setPossuiRadio(bool possuiRadio)
+        {
+            this.possuiRadio = possuiRadio;
+        }
+
         public void ligar(bool temArCondicionado)
         {
             if (getTemArCondicionado() == true )
@@ -74,6 +85,18 @@ namespace RegistrosDeCarros
             }
            
         }
+
+        public void Radio()
+        {
+            if(getPossuiRadio() == true)
+            {
+                Console.WriteLine("\n Esse carro possui um rádio! Vamos ouvir música depois");
+            }else
+            {
+                Console.WriteLine("\n Sem rádio nesse carro.");
+            }
+        }
+
 
     }
 }

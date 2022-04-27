@@ -51,10 +51,20 @@ namespace RegistrosDeCarros
        
         public void fazerEntrega()
         {
-            Console.WriteLine("Vou entregar meu produto de " + getProdutoDeEntrega());
+            Console.WriteLine("\n Vou entregar meu produto de " + getProdutoDeEntrega());
         }
 
-
+        public void Buzinar()
+        {
+            if(getBuzinaCaminhao() == true)
+            {
+                Console.WriteLine("\n Este caminhão possui buzina. Vamos usar:");
+                Console.WriteLine("FOM!!");
+            }else
+            {
+                Console.WriteLine("\n Sem buzina neste caminhão!");
+            }
+        }
 
     }
 }
